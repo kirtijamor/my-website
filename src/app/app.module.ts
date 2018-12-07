@@ -12,6 +12,10 @@ import { BrazilComponent } from './brazil/brazil.component';
 import { AustraliaComponent } from './australia/australia.component';
 import { NetherlandComponent } from './netherland/netherland.component';
 import { TurkeyComponent } from './turkey/turkey.component';
+import { PackageIndiaComponent } from './package-india/package-india.component';
+import { PackageSpainComponent } from './package-spain/package-spain.component';
+import { PackagesComponent } from './packages/packages.component';
+import { PackageThailandComponent } from './package-thailand/package-thailand.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { TurkeyComponent } from './turkey/turkey.component';
     BrazilComponent,
     AustraliaComponent,
     NetherlandComponent,
-    TurkeyComponent
+    TurkeyComponent,
+    PackageIndiaComponent,
+    PackageSpainComponent,
+    PackagesComponent,
+    PackageThailandComponent
   ],
   imports: [
     BrowserModule
