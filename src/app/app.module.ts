@@ -7,6 +7,11 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { TravelBoxComponent } from './travel-box/travel-box.component';
 import { HotelsComponent } from './hotels/hotels.component';
 import { FlightsComponent } from './flights/flights.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { BrazilComponent } from './brazil/brazil.component';
+import { AustraliaComponent } from './australia/australia.component';
+import { NetherlandComponent } from './netherland/netherland.component';
+import { TurkeyComponent } from './turkey/turkey.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { FlightsComponent } from './flights/flights.component';
     AboutUsComponent,
     TravelBoxComponent,
     HotelsComponent,
-    FlightsComponent
+    FlightsComponent,
+    GalleryComponent,
+    BrazilComponent,
+    AustraliaComponent,
+    NetherlandComponent,
+    TurkeyComponent
   ],
   imports: [
     BrowserModule
