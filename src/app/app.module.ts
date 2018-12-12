@@ -16,6 +16,7 @@ import { PackageIndiaComponent } from './package-india/package-india.component';
 import { PackageSpainComponent } from './package-spain/package-spain.component';
 import { PackagesComponent } from './packages/packages.component';
 import { PackageThailandComponent } from './package-thailand/package-thailand.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PackageThailandComponent } from './package-thailand/package-thailand.co
     PackageIndiaComponent,
     PackageSpainComponent,
     PackagesComponent,
-    PackageThailandComponent
+    PackageThailandComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule
