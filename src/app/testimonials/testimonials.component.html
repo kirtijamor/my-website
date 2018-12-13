@@ -92,6 +92,24 @@
 
     </div>
     <!--/.testimonial-carousel-->
+    <div class="input-group">
+      <form [formGroup]="addreview" #review>
+        <input type="text" class="form-control" placeholder="Name"
+        aria-describedby="basic-addon1" formControlName="name"><br>
+
+        <input type="text" class="form-control" placeholder="City"
+        aria-describedby="basic-addon1" formControlName="city"><br>
+
+        <input type="text" class="form-control" placeholder="Country"
+        aria-describedby="basic-addon1" formControlName="country"><br>
+
+        <input type="text" class="form-control" placeholder="Review (max.120 char)"
+        aria-describedby="basic-addon1" formControlName="review"><br>
+
+        <p><button type="submit" (click)="onAdd()"> Add Review</button></p>
+      </form>
+
+    </div>
   </div>
   <!--/.container-->
 
