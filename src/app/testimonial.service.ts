@@ -15,6 +15,6 @@ export class TestimonialService {
 
   getReview(review): void {
     this.revArr.unshift(review); // unshift() - to add latest element at start of array
-    // this._reviews.next(this.revArr);
+    this._reviews.next(this.revArr); // emits next event
   }
 }

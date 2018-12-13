@@ -27,13 +27,8 @@ export class TestimonialsComponent implements OnInit {
     this.rev.review = this.addreview.value ['review'];
     console.log(this.addreview);
     this.testimonialService.getReview(this.rev);
-    /* this.rev = new Testimonial();
-    this.addreview.reset({
-      name : {value: ''},
-      city : {value: ''},
-      country : {value: ''},
-      review : {value: ''}
-    }); */
+    this.rev = new Testimonial();
+    this.addreview.reset();
   }
 
   ngOnInit() {
