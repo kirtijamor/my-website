@@ -1,3 +1,6 @@
+import { Hotels } from '../hotels-list';
+import { Hotel } from '../hotel';
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,8 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HotelsComponent implements OnInit {
 
-  constructor() { }
+  hotel = new Hotel();
+  hotels: Hotel[];
 
+  constructor() { }
+  searchHotel() {
+
+  }
   ngOnInit() {
   }
 
